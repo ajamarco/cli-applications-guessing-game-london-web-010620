@@ -6,4 +6,6 @@ def run_guessing_game
   if guessed_number == "exit"
     puts "Goodbye!"
   end
+  elsif guessed_number.to_i == number
+    
 end
