@@ -7,12 +7,5 @@ def run_guessing_game
   guessed_number = gets.chomp.strip
   if guessed_number == "exit"
     puts "Goodbye!"
-  else
-    guessed_number.to_s = guessed_number
-    if guessed_number == number
-      puts "/You guessed the correct number!/"
-    else
-      puts "/Sorry! The computer guessed #{number}./"
-    end 
-  end
+  elsif number.to_s == 
 end
