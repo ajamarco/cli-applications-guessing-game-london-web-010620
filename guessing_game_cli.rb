@@ -7,5 +7,7 @@ def run_guessing_game
   guessed_number = gets.chomp.strip
   if guessed_number == "exit"
     puts "Goodbye!"
-  elsif number.to_s == 
+  elsif number.to_s == guessed_number
+    puts ""
+  end
 end
