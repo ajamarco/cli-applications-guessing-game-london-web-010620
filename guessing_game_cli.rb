@@ -1,4 +1,3 @@
-
 # Code your solution here!
 def run_guessing_game
   number = rand(1..6)
@@ -12,3 +11,5 @@ def run_guessing_game
     puts "/Sorry! The computer guessed #{number}./"
   end
 end
+
+run_guessing_game
